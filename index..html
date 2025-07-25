@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Shop</title>
-</head>
-<body class=".inter-fonts">
-    <header>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles/style.css">
 
+</head>
+<body class="inter-fonts">
+    <!-- HEADER SECTION -->
+    <header class="bg-white px-4 py-8 lg:px-20">
+        <!-- NAVBAR -->
+        <nav class="flex items-center justify-between">
+            <div>
+                <img src="assets/logo.png" alt="Logo" class="w-24">
+            </div>
+            <ul class=" md:flex gap-6 text-sm text-gray-600">
+                <li><a href="#" class=" hidden sm:block hover:text-orange-500 font-bold">Home</a></li>
+                <li><a href="#" class=" hidden sm:block hover:text-orange-500">Shop</a></li>
+                <li><a href="#" class=" hidden sm:block hover:text-orange-500">About us</a></li>
+               <li> <a href="#" class="hover:text-orange-500 ">🛒 Cart (56$)</a></li>
+            </ul>
+            
+                
+           
+        </nav>
+    
+        <!-- HEADER CONTENT -->
+        <div class="mt-12 flex flex-col-reverse items-center justify-between lg:flex-row">
+            <div class="text-center lg:text-left">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug">
+                    ALWAYS <span class="text-orange-600">FRESH FLOWERS</span>
+                </h1>
+                <p class="mt-4 text-sm text-gray-600 max-w-md">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+                    From classic roses to exotic blooms, we offer a wide variety of fresh flowers
+                    that are perfect for any occasion.
+                </p>
+            </div>
+            <div class="mb-8 lg:mb-0">
+                <img src="assets/hero-flower.png" alt="Flower" class="w-72 md:w-96" />
+            </div>
+        </div>
     </header>
+
     <main>
 
     </main>
