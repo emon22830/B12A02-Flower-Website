@@ -8,29 +8,29 @@
 }
 
 /* Shared Styles */
-.primary-title-color {
+/* .primary-title-color {
     color: #E95A08;
-}
+} */
 
-.display-flex {
+/* .display-flex {
     display: flex;
-}
+} */
 
 
 /* Main Section & Header */
 
-main,
+/* main,
 header {
     max-width: 1440px;
     margin: 0 auto;
 
-}
+} */
 
 /* Header Section */
 
 
 /* Navbar Section */
-.navbar {
+/* .navbar {
     justify-content: space-between;
     align-items: center;
 }
@@ -39,4 +39,4 @@ header {
 
     gap: 20px;
 
-}
+} */
